@@ -12,8 +12,4 @@ router.get("/movies", (req, res) => {
     });
 });
 
-app.listen(3000, () => {
-  console.log("Serveur en écoute sur le port 3000");
-});
-
 module.exports = router;
